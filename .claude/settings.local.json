@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.kalshi.com)",
+      "Skill(claude-developer-platform)",
+      "Skill(claude-developer-platform:*)",
+      "Bash(ls:*)",
+      "Bash(python:*)",
+      "Bash(curl -s --max-time 5 https://api.weather.gov/points/40.7143,-74.0060 -H \"User-Agent: test/1.0\")",
+      "Bash(curl -s --max-time 5 \"https://api.open-meteo.com/v1/forecast?latitude=40.71&longitude=-74.00&daily=temperature_2m_max&timezone=America%2FNew_York\")",
+      "Bash(python3 -c \":*)",
+      "Bash(env)",
+      "Bash(# Show full details of all utun interfaces for i in 0 1 2 3 4 5; do echo \"\"=== utun$i ===\"\" ifconfig utun$i done echo \"\"\"\" echo \"\"=== IPv4 routes via utun ===\"\" netstat -rn)",
+      "Bash(sudo pfctl -sr)",
+      "Bash(sudo pfctl -s all)"
+    ]
+  }
+}

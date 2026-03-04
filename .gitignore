@@ -1,0 +1,9 @@
+.env
+Kalshibot.txt
+__pycache__/
+*.py[cod]
+*.db
+.DS_Store
+.venv/
+venv/
+*.pem
